@@ -14,6 +14,7 @@ function Detail({ match }) {
         url: '',
       },
     ],
+    image: 'default.png',
   });
 
   useEffect(() => {
@@ -51,7 +52,7 @@ function Detail({ match }) {
         </div>
 
         <figure className="image-container">
-          <img src="https://picsum.photos/id/237/200/200" alt=""></img>
+          <img src={require(`../../images/${content.image}`)} alt=""></img>
         </figure>
       </section>
 

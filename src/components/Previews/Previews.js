@@ -18,7 +18,7 @@ class Preview extends React.Component {
                 <figure className="image-container">
                   <Link to={hypothesis.path}>
                     <img
-                      src="https://picsum.photos/id/237/200/200"
+                      src={require(`../../images/${hypothesis.image}`)}
                       alt=""
                     ></img>
                   </Link>

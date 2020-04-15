@@ -15,11 +15,7 @@
           "url": "https://planetary-science.org/astrobiology/rare-earth-hypothesis/"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "early_birds",
@@ -32,11 +28,7 @@
           "url": "https://www.nasa.gov/feature/goddard/most-earth-like-worlds-have-yet-to-be-born-according-to-theoretical-study"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "filter_ahead",
@@ -53,11 +45,7 @@
           "url": "https://www.youtube.com/watch?v=UjtOGPJ0URM"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "too_big",
@@ -74,11 +62,7 @@
           "url": "https://en.wikipedia.org/wiki/Observable_universe"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "observable_universe.png"
     },
     {
       "path": "unnoticed",
@@ -91,11 +75,7 @@
           "url": "https://www.dailygrail.com/2008/10/michio-kaku-impossible-science/"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "zoo",
@@ -108,11 +88,7 @@
           "url": "https://en.wikipedia.org/wiki/Zoo_hypothesis"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "predators",
@@ -125,11 +101,7 @@
           "url": "https://bigthink.com/scotty-hendricks/the-dark-forest-theory-a-terrifying-explanation-of-why-we-havent-heard-from-aliens-yet"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     },
     {
       "path": "simulation",
@@ -142,11 +114,7 @@
           "url": "https://www.youtube.com/watch?v=1fQkVqno-uI"
         }
       ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
+      "image": "rare_earth.png"
     }
   ],
   "references": [

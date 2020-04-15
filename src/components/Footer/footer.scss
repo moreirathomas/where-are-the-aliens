@@ -1,10 +1,10 @@
+@import '../../variables';
+
 footer {
-  background-color: rgb(40, 44, 52);
   min-height: 50vh;
   padding: 4vmin 10vmin;
 
   font-size: calc(10px + 1vmin);
-  color: rgba(255, 255, 255, 1);
 
   display: flex;
   flex-direction: column;
@@ -14,15 +14,8 @@ footer {
     margin-bottom: 4vmin;
   }
 
-  a {
-    color: rgba(255, 255, 255, 0.5);
-
-    &:hover {
-      color: tomato;
-    }
-  }
-
   li {
     margin-top: 1vmin;
   }
+  @include shadow($pink);
 }

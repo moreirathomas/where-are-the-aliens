@@ -1,65 +1,18 @@
 {
   "hypotheses": [
     {
-      "path": "unique",
+      "path": "rare_earth",
       "title": "The Rare Earth",
-      "headline": "Basically we're unique.",
-      "text": "The rare Earth hypetheiss argues that planets with complex life, like Earth are extremely rare and that extraterrestrial life is highly improbable. Hence, we are one of a kind.",
+      "headline": "There's no one else because we're super rare.",
+      "text": "The emergence of complex life such as it is on Earth required an improbable combination of astrophysical and geological events and circumstances. Thus, complex extraterrestrial life is higly improbable.\nBasically, we were super luckiy that the Earth is at the right location in the right kind of galaxy, orbiting at the right distance of the right kind of sun with a stable orbit, and so on and so forth...\nSo yeah, we are one of a kind.",
       "links": [
         {
-          "page": "",
-          "url": ""
-        }
-      ],
-      "illustrations": [
+          "page": "Rare Earth hypothesis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rare_Earth_hypothesis"
+        },
         {
-          "path": ""
-        }
-      ]
-    },
-    {
-      "path": "gaian_bottleneck",
-      "title": "The Gaian Bottleneck",
-      "headline": "They didn't survive.",
-      "text": "The Gaian Bottleneck hypothesis, by Astrobiologist Dr. Aditya Chopra, suggest that aliens beings are all dead. They simply didn't make it. Life forms on \"habitable\" planets failed to emerge enough to stabilize the planet and pave the way for more life.",
-      "links": [
-        {
-          "page": "",
-          "url": ""
-        }
-      ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
-    },
-    {
-      "path": "great_filter",
-      "title": "The Great Filter",
-      "headline": "We're doomed, such as everyone else.",
-      "text": "Earth was subjected to five mass extinction events, nervertheless it evolved complex creatures. What if all \"habitable\" planets were hit with kiler asteroids, scorched by solar flares, torn apart by geological upheavals, seared by supernova blasts or gamma ray bursts ? Worst part is, we maybe havent encounter our own greatest filter.",
-      "links": [
-        {
-          "page": "",
-          "url": ""
-        }
-      ],
-      "illustrations": [
-        {
-          "path": ""
-        }
-      ]
-    },
-    {
-      "path": "great_silence",
-      "title": "The Great Silence",
-      "headline": "Alas, we're not worth it.",
-      "text": "The Great Silence hypothesis states that advanced begins who belong to a type III civilization on the Kardashev Scale, able to harness the energy output of a whole galaxy, simply do not reach out to insignificant carbon-based humans. Why bother whith Type 0 bipeds?",
-      "links": [
-        {
-          "page": "",
-          "url": ""
+          "page": "Rare Earth hypothesis - Planetary Science, inc.",
+          "url": "https://planetary-science.org/astrobiology/rare-earth-hypothesis/"
         }
       ],
       "illustrations": [
@@ -70,13 +23,13 @@
     },
     {
       "path": "early_birds",
-      "title": "Early Birds",
-      "headline": "Earth had an headstrat.",
-      "text": "In a study, Dr. Peter Behrrozi said that compared to all the planets that will ever form in th Universe, the Earth is actually quite early. The last star will burn out 100 trillion years from now and 92% of the planets are yet to be born? We are the first, but not necessarily the last.",
+      "title": "The Early Birds",
+      "headline": "There's no one else because we're the first.",
+      "text": "Earth might have had an an headstrat. The last star will burn out 100 trillion years from now and 92% of the planets are yet to be born. That's plenty of time for literally anything to happen, so alien life is quite highly probable.\nMaybe we will become one of the first super-intelligent civilizations and witness other species come to life and develop.",
       "links": [
         {
-          "page": "",
-          "url": ""
+          "page": "Most Earth-Like Worlds Yet to be Born - Nasa",
+          "url": "https://www.nasa.gov/feature/goddard/most-earth-like-worlds-have-yet-to-be-born-according-to-theoretical-study"
         }
       ],
       "illustrations": [
@@ -86,14 +39,18 @@
       ]
     },
     {
-      "path": "not_carbon",
-      "title": "Not Life as we know it",
-      "headline": "We've had it wrong the all time.",
-      "text": "Extarterrestrials may indeed not be biological beings like us at all. Noted astronomer Lord Martin Rees said they light be machines, not organic creatures for example. Se we should be looking for solar-harvesting structures as it will give us more chances to find something rather than focusing on carbon-based structues.",
+      "path": "filter_ahead",
+      "title": "We're Doomed!",
+      "headline": "There's no one else and soon not even us. The Great Filter is ahead of us.",
+      "text": "If we're not rare nor early, then we are not passed the Great Filter. This means that species often reach the point we already reached, but go extinct soon after. And there is no reason to think we will avoid the rule.\nSo we're doomed. We will be wiped out by regularly-occurring cataclysmic natural event. Other  possibility, and an ironic one, we will destroy ourselves with some human-made doomsday machine that was created to solve all our problems.",
       "links": [
         {
-          "page": "",
-          "url": ""
+          "page": "Great Filter - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Filter"
+        },
+        {
+          "page": "Why Alien Life Would be Our Doom - Kurzgesagt",
+          "url": "https://www.youtube.com/watch?v=UjtOGPJ0URM"
         }
       ],
       "illustrations": [
@@ -103,14 +60,18 @@
       ]
     },
     {
-      "path": "long_road",
-      "title": "A long road ahead of us",
-      "headline": "We have a lot more shearching to do.",
-      "text": "SETI (Search for Extraterrestrial Intelligence) has barely scratched the surface of the radio universe. There are many more wave lengths to scan and we shouldn't give up hope yet.",
+      "path": "too_big",
+      "title": "A Big Universe",
+      "headline": "There might be others civilization, but the Universe is really big, light-speed is slow, we are super slow.",
+      "text": "We would have to travel 46.5 billion light-years to reach the edge of the observable Universe? The Milky Way is 'only' 100,000 light-years wide and we've only scanned 40% of it, let alone truly explored. Alien life could simply be too far away for our current technology to reach, and maybe too far away period. The Universe is truly a big thing full of emptiness.",
       "links": [
         {
-          "page": "",
-          "url": ""
+          "page": "Fermi Paradox - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fermi_paradox#Intelligent_civilizations_are_too_far_apart_in_space_or_time"
+        },
+        {
+          "page": "Observable Universe - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Observable_universe"
         }
       ],
       "illustrations": [
@@ -120,14 +81,65 @@
       ]
     },
     {
-      "path": "big_universe",
-      "title": "The Universe is really big",
-      "headline": "We're simply too far away.",
-      "text": "46.5 billion light-years is the distnace to the edge of the observale universe. We've been able to scan for Extraterrestrials' signals to just around 40,000 light-years from Earth. We haven't outpassed the bounds of our galaxy, which is 100,000 light-years wide. Alien intelligences could simply be too far away four current technology to reach, and maybe it forever will.",
+      "path": "unnoticed",
+      "title": "Going Unnoticed",
+      "headline": "Our means of communication are primitive and we are undetectable. Or it's the other way around, same result.",
+      "text": "The technology we use to communicate might actually be very primitive and no advanced civilizations use what we use. Maybe other civilizations are just too alien, and there is no way to exchange information with them.\nLike Michio Kaku puts it: ‘Would the ants be able to understand what a ten-lane super-highway is? Would the ants be able to understand the technology and the intentions of the beings building the highway next to them?’.",
       "links": [
         {
-          "page": "",
-          "url": ""
+          "page": "Michio Kaku, The Impossible Science - The Daily Grail",
+          "url": "https://www.dailygrail.com/2008/10/michio-kaku-impossible-science/"
+        }
+      ],
+      "illustrations": [
+        {
+          "path": ""
+        }
+      ]
+    },
+    {
+      "path": "zoo",
+      "title": "The Zoo",
+      "headline": "Other civilizations are aware of us and observing us develop.",
+      "text": "Alien life intentionally avoids communication with Earth. And that is because it is the only way to obserse us develop, just like you observe animals at a zoo. We can also easily extend this hypothesis to something a bit more uncanny : instead of a 'protected national park', we could be in a laboratory and are part of an experiment. There is no way for us to know if this is altruistic or sadic.",
+      "links": [
+        {
+          "page": "Zoo Hypothesis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zoo_hypothesis"
+        }
+      ],
+      "illustrations": [
+        {
+          "path": ""
+        }
+      ]
+    },
+    {
+      "path": "predators",
+      "title": "The Dark Forest",
+      "headline": "Predator civilizations are out there and most intelligent species keep it quiet so they stay hidden and safe.",
+      "text": "If this is true, it means that we are extremly naive and stupid. By actively searching for alien life, we broadcast our location to anybody listening. If we look back in our past history, things didn't go well for native Americans whey Europeans found them.\nAnd scarier idea: what if instead of multiple low-level predators, there were one 'superpredator' civilization that exterminates any intelligent civilization once they get past a certain level. That would suck.",
+      "links": [
+        {
+          "page": "Dark Forest theory - Big Think",
+          "url": "https://bigthink.com/scotty-hendricks/the-dark-forest-theory-a-terrifying-explanation-of-why-we-havent-heard-from-aliens-yet"
+        }
+      ],
+      "illustrations": [
+        {
+          "path": ""
+        }
+      ]
+    },
+    {
+      "path": "simulation",
+      "title": "Outside is Boring",
+      "headline": "Physical colonization is a backward concept for advanced species.",
+      "text": "A super advanced civilization might have created a perfect environment and have zero interest in leaving their happy utopia to explore the cold, empty, undeveloped universe. They have uploaded their brains into a virtual reality where they live an eternal perfect life, and we will never find them.",
+      "links": [
+        {
+          "page": "The Fermi paradox II, Solutions and Ideas - Kurzgesagt",
+          "url": "https://www.youtube.com/watch?v=1fQkVqno-uI"
         }
       ],
       "illustrations": [
@@ -139,11 +151,15 @@
   ],
   "references": [
     {
-      "page": "Fermi Paradox",
+      "page": "Fermi Paradox - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Fermi_paradox"
     },
     {
-      "page": "Drake Equation",
+      "page": "The Fermi Paradox - Wait But Why",
+      "url": "https://waitbutwhy.com/2014/05/fermi-paradox.html"
+    },
+    {
+      "page": "Drake Equation - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Drake_equation"
     }
   ],

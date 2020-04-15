@@ -1,12 +1,9 @@
 @import '../../variables';
 
-section {
-  background-color: $beige;
-  //   min-height: 100vh;
-  padding: 10vmin;
+.previews {
+  padding: 20vmin 10vmin;
 
   font-size: calc(10px + 1vmin);
-  color: rgb(40, 44, 52);
 
   display: flex;
   flex-direction: column;
@@ -16,19 +13,50 @@ section {
   .layout-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1vmin;
+    grid-gap: 4vmin;
 
     .preview {
-      background-color: $blue;
-      color: $cherry;
+      &:hover {
+        @include shadow($yellow);
+      }
+      transition: box-shadow 0.2s ease-in-out;
 
       border-radius: 5px;
       padding: calc(10px + 4vmin);
 
       h2 {
-        margin-bottom: 1vmin;
-        color: $salmon;
+        margin-bottom: 4vmin;
+        a {
+          font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+            monospace;
+        }
+      }
+      .image-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 4vmin;
+        padding: 0;
+        overflow: hidden;
+
+        img {
+          min-width: 100%;
+          min-height: 100%;
+        }
       }
     }
+  }
+}
+@media screen and (max-width: 900px) {
+  .previews .layout-container {
+    max-width: 50vw;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 8vmin;
+  }
+}
+@media screen and (max-width: 600px) {
+  .previews .layout-container {
+    max-width: 70vw;
   }
 }

@@ -1,0 +1,10 @@
+.App {
+  background-color: #201f20;
+  color: #fff;
+}
+a {
+  color: rgba(255, 255, 255, 0.5);
+}
+a:hover {
+  color: #ccfe04;
+}

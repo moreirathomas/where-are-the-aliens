@@ -1,4 +1,9 @@
-$beige: #fff5de;
-$salmon: #fc9785;
-$cherry: #f60783;
-$blue: #14007a;
+$white: #fff;
+$bg: #201f20;
+
+$pink: #f60783;
+$yellow: #ccfe04;
+
+@mixin shadow($color-top) {
+  box-shadow: -2px -2px 6px $color-top, 2px 2px 6px rgba($bg, 0.4);
+}

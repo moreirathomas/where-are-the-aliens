@@ -1,0 +1,138 @@
+@import '../../variables';
+
+.header-small {
+  min-height: 8vh;
+  background-color: $bg;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: calc(10px + 0.25vmin);
+  line-height: 1.2;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+.title-screen {
+  min-height: 62vh;
+  padding: 4vmin 10vmin;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  text-align: center;
+
+  font-size: calc(10px + 2vmin);
+
+  margin-bottom: 8vmin;
+
+  .title-text {
+    h1 {
+      margin-bottom: 4vmin;
+    }
+    margin-bottom: 4vmin;
+  }
+
+  .image-container {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+}
+
+.content {
+  min-height: 50vh;
+  padding: 4vmin 40vmin;
+
+  font-size: calc(10px + 1vmin);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 8vmin;
+
+  & > * {
+    margin-bottom: 4vmin;
+  }
+  .image-container {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+
+    img {
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+  .references {
+    margin-top: 8vmin;
+
+    li {
+      margin-top: 1vmin;
+    }
+  }
+}
+nav {
+  margin-bottom: 8vmin;
+
+  .back-to-home {
+    display: block;
+    // border: 1px $white solid;
+    border-radius: 15px;
+    padding: 2vmin;
+    margin: 0 auto;
+    width: max-content;
+    &:hover {
+      @include shadow($yellow);
+    }
+  }
+}
+// Responsive
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 4vmin 30vmin;
+  }
+}
+@media screen and (max-width: 900px) {
+  .content {
+    padding: 4vmin 20vmin;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 4vmin 15vmin;
+  }
+}
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 4vmin 10vmin;
+  }
+}

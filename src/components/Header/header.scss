@@ -1,6 +1,8 @@
+@import '../../variables';
+
 header {
-  background-color: #282c34;
   min-height: 100vh;
+  padding: 4vmin 10vmin;
 
   display: flex;
   flex-direction: column;
@@ -10,9 +12,13 @@ header {
   text-align: center;
 
   font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 1.5;
 
   h1 {
-    margin-bottom: 2vmin;
+    margin-bottom: 4vmin;
   }
+  span {
+    margin-bottom: 4vmin;
+  }
+  @include shadow($pink);
 }

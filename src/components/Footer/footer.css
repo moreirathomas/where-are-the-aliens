@@ -1,9 +1,7 @@
 footer {
-  background-color: #282c34;
   min-height: 50vh;
   padding: 4vmin 10vmin;
   font-size: calc(10px + 1vmin);
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,18 +12,12 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: -2px -2px 6px #f60783, 2px 2px 6px rgba(32, 31, 32, 0.4);
+          box-shadow: -2px -2px 6px #f60783, 2px 2px 6px rgba(32, 31, 32, 0.4);
 }
 
 footer > *:not(:last-child) {
   margin-bottom: 4vmin;
-}
-
-footer a {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-footer a:hover {
-  color: tomato;
 }
 
 footer li {

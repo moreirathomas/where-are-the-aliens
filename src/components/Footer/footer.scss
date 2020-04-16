@@ -3,19 +3,18 @@
 footer {
   min-height: 50vh;
   padding: 4vmin 10vmin;
-
   font-size: calc(10px + 1vmin);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
 
   & > *:not(:last-child) {
     margin-bottom: 4vmin;
   }
-
   li {
     margin-top: 1vmin;
   }
-  @include shadow($pink);
 }

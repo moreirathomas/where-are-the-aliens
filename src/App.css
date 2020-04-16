@@ -1,6 +1,7 @@
 body {
   background-color: #201f20;
   color: #fff;
+  line-height: 1.25;
 }
 a {
   color: rgba(255, 255, 255, 0.5);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import data from '../../data/data.json';
 import { Link } from 'react-router-dom';
-import './detail.css';
+import './detail.min.css';
 
 const hypotheses = data.hypotheses;
 
@@ -44,41 +44,46 @@ function Detail({ match }) {
           </span>
         </h1>
       </header>
+      <main>
+        <section className="title-screen">
+          <div className="title-text">
+            <h1>{content.title}</h1>
+            <p>{content.headline}</p>
+          </div>
 
-      <section className="title-screen">
-        <div className="title-text">
-          <h1>{content.title}</h1>
-          <p>{content.headline}</p>
-        </div>
+          <figure className="image-container">
+            <img src={require(`../../images/${content.image}`)} alt=""></img>
+          </figure>
+        </section>
 
-        <figure className="image-container">
-          <img src={require(`../../images/${content.image}`)} alt=""></img>
-        </figure>
-      </section>
+        <section className="content">
+          <p style={{ whiteSpace: 'pre-line' }}>{content.text}</p>
 
-      <section className="content">
-        <p style={{ whiteSpace: 'pre-line' }}>{content.text}</p>
-
-        <div className="references">
-          <p>To learn more:</p>
-          <ul>
-            {content.links.map((link, index) => {
-              return (
-                <li key={index}>
-                  <a href={link.url} target="_blank" rel="noreferrer noopener">
-                    {link.page}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
-      <nav>
-        <Link className="back-to-home" to="/">
-          Back
-        </Link>
-      </nav>
+          <div className="references">
+            <p>To learn more:</p>
+            <ul>
+              {content.links.map((link, index) => {
+                return (
+                  <li key={index}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      {link.page}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </section>
+        <nav>
+          <Link className="back-to-home" to="/">
+            Back
+          </Link>
+        </nav>
+      </main>
     </Fragment>
   );
 }

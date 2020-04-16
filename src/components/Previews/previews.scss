@@ -1,14 +1,15 @@
 @import '../../variables';
 
 .previews {
-  padding: 20vmin 10vmin;
-
+  padding: 20vmin 25vmin;
   font-size: calc(10px + 1vmin);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $bg;
+  @include top-shadow($pink);
+  @include bot-shadow($pink);
 
   .layout-container {
     display: grid;
@@ -16,14 +17,18 @@
     grid-gap: 4vmin;
 
     .preview {
-      &:hover {
-        @include shadow($yellow);
-      }
+      padding: calc(10px + 4vmin);
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
       transition: box-shadow 0.2s ease-in-out;
 
-      border-radius: 5px;
-      padding: calc(10px + 4vmin);
-
+      &:hover {
+        @include top-shadow($yellow);
+        @include bot-shadow($yellow);
+      }
       h2 {
         margin-bottom: 4vmin;
         a {
@@ -39,13 +44,19 @@
         margin: 0 0 4vmin;
         padding: 0;
         overflow: hidden;
-
         img {
-          min-width: 100%;
-          min-height: 100%;
+          max-width: 128px;
+          min-height: auto;
         }
       }
     }
+  }
+}
+
+// Responsive
+@media screen and (max-width: 1024px) {
+  .previews {
+    padding: 20vmin 10vmin;
   }
 }
 @media screen and (max-width: 900px) {

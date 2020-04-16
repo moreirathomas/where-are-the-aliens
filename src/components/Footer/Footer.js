@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../../data/data.json';
-import './footer.css';
+import './footer.min.css';
 
 class Footer extends React.Component {
   render() {
@@ -63,7 +63,27 @@ class Footer extends React.Component {
             })}
           </ul>
         </div>
-        <p>© 2020 Thomas Moreira </p>
+        <div>
+          <p>
+            Icons designed by{' '}
+            <a
+              href="https://www.flaticon.com/authors/smashicons"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Smashicons
+            </a>{' '}
+            from{' '}
+            <a
+              href="https://www.flaticon.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Flaticon
+            </a>
+          </p>
+          <p>© 2020 Thomas Moreira </p>
+        </div>
       </footer>
     );
   }

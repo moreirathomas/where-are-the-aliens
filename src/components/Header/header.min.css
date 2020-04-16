@@ -1,0 +1,2 @@
+header{min-height:100vh;padding:0vmin 10vmin;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;text-align:center;font-size:calc(10px + 2vmin);line-height:1.5;background-color:#201f20}header h1{margin-bottom:4vmin}header img{max-width:128px;min-height:auto;margin-bottom:4vmin}
+/*# sourceMappingURL=header.min.css.map */

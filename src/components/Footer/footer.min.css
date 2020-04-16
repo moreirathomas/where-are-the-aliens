@@ -1,0 +1,2 @@
+footer{min-height:50vh;padding:4vmin 10vmin;font-size:calc(10px + 1vmin);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:-webkit-sticky;position:sticky;bottom:0;z-index:-1}footer>*:not(:last-child){margin-bottom:4vmin}footer li{margin-top:1vmin}
+/*# sourceMappingURL=footer.min.css.map */

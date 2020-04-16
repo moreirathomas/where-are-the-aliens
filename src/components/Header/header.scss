@@ -2,23 +2,22 @@
 
 header {
   min-height: 100vh;
-  padding: 4vmin 10vmin;
-
+  padding: 0vmin 10vmin;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
+  justify-content: space-evenly;
   text-align: center;
-
   font-size: calc(10px + 2vmin);
   line-height: 1.5;
+  background-color: $bg;
 
   h1 {
     margin-bottom: 4vmin;
   }
-  span {
+  img {
+    max-width: 128px;
+    min-height: auto;
     margin-bottom: 4vmin;
   }
-  @include shadow($pink);
 }

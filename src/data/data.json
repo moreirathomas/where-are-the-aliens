@@ -15,7 +15,7 @@
           "url": "https://planetary-science.org/astrobiology/rare-earth-hypothesis/"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "planet-earth.png"
     },
     {
       "path": "early_birds",
@@ -28,7 +28,7 @@
           "url": "https://www.nasa.gov/feature/goddard/most-earth-like-worlds-have-yet-to-be-born-according-to-theoretical-study"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "space-ship.png"
     },
     {
       "path": "filter_ahead",
@@ -45,7 +45,7 @@
           "url": "https://www.youtube.com/watch?v=UjtOGPJ0URM"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "asteroid.png"
     },
     {
       "path": "too_big",
@@ -62,7 +62,7 @@
           "url": "https://en.wikipedia.org/wiki/Observable_universe"
         }
       ],
-      "image": "observable_universe.png"
+      "image": "milky-way.png"
     },
     {
       "path": "unnoticed",
@@ -75,7 +75,7 @@
           "url": "https://www.dailygrail.com/2008/10/michio-kaku-impossible-science/"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "antennas.png"
     },
     {
       "path": "zoo",
@@ -88,7 +88,7 @@
           "url": "https://en.wikipedia.org/wiki/Zoo_hypothesis"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "cow-abducted.png"
     },
     {
       "path": "predators",
@@ -101,7 +101,7 @@
           "url": "https://bigthink.com/scotty-hendricks/the-dark-forest-theory-a-terrifying-explanation-of-why-we-havent-heard-from-aliens-yet"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "alien.png"
     },
     {
       "path": "simulation",
@@ -114,7 +114,7 @@
           "url": "https://www.youtube.com/watch?v=1fQkVqno-uI"
         }
       ],
-      "image": "rare_earth.png"
+      "image": "hologram.png"
     }
   ],
   "references": [

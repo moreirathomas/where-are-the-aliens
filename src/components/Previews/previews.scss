@@ -27,7 +27,6 @@
 
       &:hover {
         @include top-shadow($yellow);
-        @include bot-shadow($yellow);
       }
       h2 {
         margin-bottom: 4vmin;
@@ -47,6 +46,9 @@
         img {
           max-width: 128px;
           min-height: auto;
+        }
+        &:hover {
+          filter: brightness(1.25);
         }
       }
     }

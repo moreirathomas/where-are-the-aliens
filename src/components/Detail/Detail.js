@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import data from '../../data/data.json';
 import { Link } from 'react-router-dom';
+import data from '../../data/data.json';
 import './detail.min.css';
 
 const hypotheses = data.hypotheses;
@@ -19,20 +19,14 @@ function Detail({ match }) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    console.clear();
-    console.log('match.params.path =', match.params.path);
-
     const getContent = () => {
       const content = hypotheses.filter(
         (el) => el.path === match.params.path
       )[0];
-      console.log('matching content to be set =', content);
       setContent(content);
     };
     getContent();
   }, [match.params.path]);
-  console.log('set content =', content);
-  console.log(content.links);
 
   return (
     <Fragment>
@@ -79,7 +73,7 @@ function Detail({ match }) {
           </div>
         </section>
         <nav>
-          <Link className="back-to-home" to="/">
+          <Link className="back-to-home" to="/where-are-the-aliens">
             Back
           </Link>
         </nav>

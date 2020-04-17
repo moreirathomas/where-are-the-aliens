@@ -1,7 +1,7 @@
 {
   "hypotheses": [
     {
-      "path": "rare_earth",
+      "path": "rare-earth",
       "title": "The Rare Earth",
       "headline": "There's no one else because we're super rare.",
       "text": "The emergence of complex life such as it is on Earth required an improbable combination of astrophysical and geological events and circumstances. Thus, complex extraterrestrial life is higly improbable.\nBasically, we were super luckiy that the Earth is at the right location in the right kind of galaxy, orbiting at the right distance of the right kind of sun with a stable orbit, and so on and so forth...\nSo yeah, we are one of a kind.",
@@ -18,7 +18,7 @@
       "image": "planet-earth.png"
     },
     {
-      "path": "early_birds",
+      "path": "early-birds",
       "title": "The Early Birds",
       "headline": "There's no one else because we're the first.",
       "text": "Earth might have had an an headstrat. The last star will burn out 100 trillion years from now and 92% of the planets are yet to be born. That's plenty of time for literally anything to happen, so alien life is quite highly probable.\nMaybe we will become one of the first super-intelligent civilizations and witness other species come to life and develop.",
@@ -31,7 +31,7 @@
       "image": "space-ship.png"
     },
     {
-      "path": "filter_ahead",
+      "path": "filter-ahead",
       "title": "We're Doomed!",
       "headline": "There's no one else and soon not even us. The Great Filter is ahead of us.",
       "text": "If we're not rare nor early, then we are not passed the Great Filter. This means that species often reach the point we already reached, but go extinct soon after. And there is no reason to think we will avoid the rule.\nSo we're doomed. We will be wiped out by regularly-occurring cataclysmic natural event. Other  possibility, and an ironic one, we will destroy ourselves with some human-made doomsday machine that was created to solve all our problems.",
@@ -48,7 +48,7 @@
       "image": "asteroid.png"
     },
     {
-      "path": "too_big",
+      "path": "too-big",
       "title": "A Big Universe",
       "headline": "There might be others civilization, but the Universe is really big, light-speed is slow, we are super slow.",
       "text": "We would have to travel 46.5 billion light-years to reach the edge of the observable Universe? The Milky Way is 'only' 100,000 light-years wide and we've only scanned 40% of it, let alone truly explored. Alien life could simply be too far away for our current technology to reach, and maybe too far away period. The Universe is truly a big thing full of emptiness.",

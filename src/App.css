@@ -1,7 +1,9 @@
-body {
+.App {
   background-color: #201f20;
   color: #fff;
   line-height: 1.25;
+  z-index: 0;
+  position: relative;
 }
 a {
   color: rgba(255, 255, 255, 0.5);

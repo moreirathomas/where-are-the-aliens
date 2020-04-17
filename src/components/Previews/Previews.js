@@ -1,6 +1,6 @@
 import React from 'react';
-import data from '../../data/data.json';
 import { Link } from 'react-router-dom';
+import data from '../../data/data.json';
 import './previews.min.css';
 
 class Preview extends React.Component {
@@ -12,11 +12,13 @@ class Preview extends React.Component {
             return (
               <div className="preview" key={index}>
                 <h2>
-                  <Link to={hypothesis.path}>{hypothesis.title} </Link>
+                  <Link to={'/where-are-the-aliens/' + hypothesis.path}>
+                    {hypothesis.title}{' '}
+                  </Link>
                 </h2>
 
                 <figure className="image-container">
-                  <Link to={hypothesis.path}>
+                  <Link to={'/where-are-the-aliens/' + hypothesis.path}>
                     <img
                       src={require(`../../images/${hypothesis.image}`)}
                       alt=""

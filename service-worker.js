@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/where-are-the-aliens/precache-manifest.4f545a3e2b64260128d2be4e74294abb.js"
+  "/where-are-the-aliens/precache-manifest.51d93f43fab5a6e2e2599813a253c766.js"
 );
 
 self.addEventListener('message', (event) => {

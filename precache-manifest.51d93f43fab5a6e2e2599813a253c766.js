@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b387b44818a6a693431545221071dc1",
+    "revision": "88b38e90042c2a66dad8b3ef8483d480",
     "url": "/where-are-the-aliens/index.html"
   },
   {
-    "revision": "0497c9614c8655ab24f5",
-    "url": "/where-are-the-aliens/static/css/main.5b07b12f.chunk.css"
+    "revision": "a9d9e0839cceb5369f75",
+    "url": "/where-are-the-aliens/static/css/main.417b08e2.chunk.css"
   },
   {
     "revision": "5be2bf87952a9712181e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/where-are-the-aliens/static/js/2.8906a296.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0497c9614c8655ab24f5",
-    "url": "/where-are-the-aliens/static/js/main.b4e589dc.chunk.js"
+    "revision": "a9d9e0839cceb5369f75",
+    "url": "/where-are-the-aliens/static/js/main.55a3c22d.chunk.js"
   },
   {
     "revision": "60cf48a4972d63201cdb",
